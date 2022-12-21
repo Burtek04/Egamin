@@ -1,0 +1,63 @@
+body {
+    font-family: Garamond;
+    background-color: rgb(30, 144, 255);
+    color: white;
+}
+p {
+    padding: 20px;
+    font-size: 200%;
+    border: 1px solid rgb(192, 192, 192);
+}
+p:hover {
+    background-color: rgb(192, 192, 192);
+}
+p.italic {
+    font-style: italic;
+}
+p.bold {
+    font-weight: bold;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid rgb(192, 192, 192);
+    padding: 10px;
+}
+header, footer {
+    display: flex;
+    flex-direction: row;
+}
+#banerLeft, #banerRight {
+    flex-basis: 25%;
+    height: 200px;
+}
+#banerCenter {
+    text-align: center;
+    flex-basis: 50%;
+    height: 200px;
+    font-size: 250%;
+}
+main {
+    background-color: rgb(0, 0, 128);
+    padding: 60px;
+    text-transform: uppercase;
+}
+#footerLeft {
+    padding: 10px;
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    width: 60%;
+    font-size: 280%;
+    margin: 30px;
+}
+#footerRight {
+    text-align: right;
+    clear: both;
+    padding-top: 100px;
+    float: right;
+    width: 40%;
+}

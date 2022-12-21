@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Twoje BMI</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+
+<body>
+    <div id="naglowek">
+        <div id="logo">
+            <img src="wzor.png" alt="wzór BMI">
+        </div>
+        <div id="baner">
+            <h1>Oblicz swoje BMI</h1>
+        </div>
+    </div>
+    <div id="glowny">
+        <table>
+            <tr>
+                <th>Interpretacja BMI</th>
+                <th>Wartość minimalna</th>
+                <th>Wartość maksymalna</th>
+            </tr>
+            <tr>
+                <td>niedowaga</td>
+                <td>0</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>waga prawidłowa</td>
+                <td>19</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>nadwaga</td>
+                <td>26</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>otylosc</td>
+                <td>31</td>
+                <td>100</td>
+            </tr>
+        </table>
+    </div>
+    <div id="podzial">
+        <div id="lewy">
+            <h2>Podaj wagę i wzrost</h2>
+            <form>
+              <P>  Waga:<input type="number" min="1" name="waga"></P>
+              <P> Wzrost w cm:<input type="number" min="1" name="wzrost"></P>
+              <P> <button type="submit">Oblicz i zapamietaj wynik</button></P>
+            </form>
+            <div id="wynik"> <p>Twoja waga:60; Twój wzrost: 170 </p> <p>BMI wynosi 20.754645645</p></div>
+        </div>
+        <div id="prawy"><img src="rys1.png" alt="ćwiczenia"></div>
+    </div>
+    <div id="stopka">
+        Autor: Bartek <a href="kwerendy.txt">Zobacz kwerendy</a>
+    </div>
+</body>
+
+</html>

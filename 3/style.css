@@ -1,0 +1,87 @@
+body {
+    font-family: Verdana;
+    background-color: seagreen;
+}
+h3 {
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: capitalize;
+    color: white;
+}
+header {
+    color: white;
+    text-align: center;
+    height: 330px;
+}
+#druzyna {
+    color: white;
+    text-align: center;
+    width: 170px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+#druzyna:hover {
+    color: black;
+    background-color: white;
+}
+main {
+    color: white;
+}
+#podzial {
+    display: flex;
+}
+#lewy {
+    background-color: whitesmoke;
+    flex: 30%;
+    text-align: center;
+    height: 150px;
+    float: left;
+}
+#prawy {
+    background-color: whitesmoke;
+    flex: 70%;
+    height: 150px;
+}
+section
+{
+    float: left;
+}
+#mecze
+{
+    width: 100%;
+    height: 30%;
+    float: right;
+}
+#mecz {
+    float: left;
+    color: white;
+    text-align: center;
+    width: 15%;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 15px;
+
+
+}
+#mecz:hover {
+    background-color: white;
+    color: black;
+}
+ol
+{
+    color: black;
+}
+.p1
+{
+    font-weight: 600;
+}
+.p2
+{
+    font-weight: bold;
+    font-size: 150%;
+}
+li
+{
+    margin-top: 30px;
+}
